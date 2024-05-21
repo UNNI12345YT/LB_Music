@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "27500064"))
+API_HASH = getenv("API_HASH", "690dc5633ef234f04f3825a7c1ad0272")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID = int(getenv("OWNER_ID", "6171681404"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Blockbuster_Brigade")
+SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/XBOTSUPPORTS")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
